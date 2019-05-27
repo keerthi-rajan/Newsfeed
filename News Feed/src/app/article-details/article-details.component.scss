@@ -1,0 +1,164 @@
+
+
+
+.left-section{   
+    background-color: #F7F7F7;
+    .card{
+        .card-header{
+            font-size: 20px;
+            font-weight: 600;
+            margin-left: 5%;
+            }
+            .list-group{
+                border: 1px solid #ddd;
+            .list-group-item{
+                border: none !important;
+                }
+            }
+    }
+}
+.main-section{
+    h1{
+        font-family: Montserrat, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 800;
+    }
+    .comment-link{
+        float: right;
+        padding: 5px 30px 10px 0;
+        color: #999;
+    }
+     .widget{
+        width: 95%;
+    }
+    .content{
+        margin: 5% 0;
+        p {
+            font-size: 1.75rem;
+            font-weight: 500;
+            line-height: 3.5rem;
+        }
+    }
+   
+    .pb-cmnt-container {
+        font-family: Lato;
+        margin-top: 5%;
+    }
+
+    .pb-cmnt-textarea {
+        resize: none;
+        padding: 20px;
+        height: 130px;
+        width: 100%;
+        border: 1px solid #F2F2F2;
+    }
+}
+.right-section {  
+
+.navigation {
+    padding: 2% 0;
+    .mainmenu, .submenu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .mainmenu {
+        li{
+            padding: 2% 0;
+        }
+    }
+    
+    .mainmenu a {
+      display: block;
+      background-color: #cc0033 ;
+      text-decoration: none;
+      padding: 10px;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 600;
+  
+    }
+    
+    
+    .mainmenu a:hover {
+      background-color: #cc0033 ;
+    }
+    
+    
+    .mainmenu li:hover .submenu {
+      display: block;
+      max-height: 300px;
+    }
+    
+    
+    .submenu a {
+      background-color: #7A0023 ;
+      span{
+          margin-left: 5%;
+          font-size: 14px;
+          font-weight: 500;
+      }
+    }
+    
+    
+    .submenu a:hover {
+      background-color: #7A0023 ;
+    }
+    
+    
+    .submenu {
+      overflow: hidden;
+      max-height: 0;
+      -webkit-transition: all 0.5s ease-out;
+    }
+  }
+}
+
+//Modal
+.modal{
+    padding-right: 0 !important;
+    .modal-dialog{
+        top: 30%;
+    }
+}
+.modal-title{
+    font-weight: 600;
+}
+input.email,input.password{
+    color:#555555;
+     font-size: 12px;
+     height: 30px;
+    background:#F1F1F1;
+}
+.textbox
+{
+    padding-top:12px;
+}
+.btn-red{
+    background-color: #cc0033;
+    color:#fff;
+    width: 50%;
+}
+.remember-add {
+    font-weight: 500;
+    font-size: 13px;
+    margin:  7px;
+}
+.forgot-pwd{
+    color: #cc0033;
+    font-size: 12px;
+}
+   
+@media only screen and (min-width: 992px) {
+.left-section {
+    position: sticky;
+    top: 70px; 
+}
+.right-section {
+    position: sticky;
+    top: 70px;
+}
+.modal-dialog{
+    width: 25%;
+    margin: 0 auto;
+}
+}
